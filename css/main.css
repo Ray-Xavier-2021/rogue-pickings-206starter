@@ -186,20 +186,41 @@ footer span {
 
 @media all and (min-width:768px) {
     /* Tablet styles here */
+	header {
+		justify-content: center;
+		flex-grow: 1;
+	}
+	header h1 {
+		flex-basis: 100%;
+		text-align: center;
+	}
+	.top-section {
+		border-bottom:  1px solid #eee;
+	}
 	.bottom-section {
-
+		flex-flow: nowrap;
+		border-bottom: 1px solid #eee;
 	}
 
-	.section-one {
-
+	.section-one,
+	.section-two,
+	.section-three {
+		border-top: none;
 	}
 
+	.section-one { 
+		justify-content: flex-start;
+		align-items: flex-start;
+	}
 	.section-two {
-
+		border-left:  1px solid #eee;
+		border-right:  1px solid #eee;
+		align-items: center;
+		flex-grow: 0;
 	}
 
 	.section-three {
-
+		
 	}
  
 }
