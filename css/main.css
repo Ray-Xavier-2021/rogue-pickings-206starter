@@ -64,7 +64,6 @@ header h1 span {
 
 header nav {
 	padding: 20px 0;
-	flex-basis: 0;
 }
 header nav ul {
 	margin: 0;
@@ -172,7 +171,6 @@ footer span {
 		border-right:  1px solid #eee;
 		padding: 0;
 	}
-
 
 }
  
